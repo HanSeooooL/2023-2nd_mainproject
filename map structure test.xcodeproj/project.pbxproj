@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A40E63662A80CA8200D9F520 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A40E63652A80CA8200D9F520 /* main.c */; };
+		A40E636E2A80CD0800D9F520 /* Parkingcontroll.c in Sources */ = {isa = PBXBuildFile; fileRef = A40E636D2A80CD0800D9F520 /* Parkingcontroll.c */; };
+		A40E63702A80CD1D00D9F520 /* FileInOut.c in Sources */ = {isa = PBXBuildFile; fileRef = A40E636F2A80CD1D00D9F520 /* FileInOut.c */; };
+		A40E63722A80CD5100D9F520 /* UI.c in Sources */ = {isa = PBXBuildFile; fileRef = A40E63712A80CD5100D9F520 /* UI.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		A40E63622A80CA8200D9F520 /* map structure test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "map structure test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40E63652A80CA8200D9F520 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A40E636C2A80CD0800D9F520 /* Parkingcontroll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parkingcontroll.h; sourceTree = "<group>"; };
+		A40E636D2A80CD0800D9F520 /* Parkingcontroll.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Parkingcontroll.c; sourceTree = "<group>"; };
+		A40E636F2A80CD1D00D9F520 /* FileInOut.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FileInOut.c; sourceTree = "<group>"; };
+		A40E63712A80CD5100D9F520 /* UI.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = UI.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				A40E63652A80CA8200D9F520 /* main.c */,
+				A40E636C2A80CD0800D9F520 /* Parkingcontroll.h */,
+				A40E636D2A80CD0800D9F520 /* Parkingcontroll.c */,
+				A40E636F2A80CD1D00D9F520 /* FileInOut.c */,
+				A40E63712A80CD5100D9F520 /* UI.c */,
 			);
 			path = "map structure test";
 			sourceTree = "<group>";
@@ -119,7 +130,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40E63702A80CD1D00D9F520 /* FileInOut.c in Sources */,
 				A40E63662A80CA8200D9F520 /* main.c in Sources */,
+				A40E636E2A80CD0800D9F520 /* Parkingcontroll.c in Sources */,
+				A40E63722A80CD5100D9F520 /* UI.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

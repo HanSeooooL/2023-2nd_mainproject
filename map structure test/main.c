@@ -5,10 +5,14 @@
 //  Created by 한설 on 2023/08/07.
 //
 
-#include <stdio.h>
+#include "Parkingcontroll.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void) {
+    
+    //Programstart();
+    printf("%c", 0 + 48);
+    
+    
+    printf("%s", getnowtimeeightcharacter());
     return 0;
 }
