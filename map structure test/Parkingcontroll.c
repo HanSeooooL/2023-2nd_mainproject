@@ -14,7 +14,6 @@ char* getnowtimeeightcharacter(void) {
     time_t now;
     struct tm *t;
     
-    
     now = time(&now);
     t = localtime(&now);
     
@@ -38,8 +37,6 @@ char* getnowtimeeightcharacter(void) {
         sprintf(res, "%s0%d", res, t -> tm_min);
     }
     else sprintf(res, "%s%d", res, t -> tm_min);
-    
-    
     
     return res;
 }
