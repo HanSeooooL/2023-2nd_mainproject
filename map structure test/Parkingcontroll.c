@@ -31,8 +31,13 @@ char* getnowtimeeightcharacter(void) {
     }
     else sprintf(res, "%s%d", res, t -> tm_mday);
     if((t -> tm_hour) < 10) {
-        
+        sprintf(res, "%s0%d", res, t -> tm_hour);
     }
+    else sprintf(res, "%s%d", res, t -> tm_hour);
+    if((t -> tm_min) < 10) {
+        sprintf(res, "%s0%d", res, t -> tm_min);
+    }
+    else sprintf(res, "%s%d", res, t -> tm_min);
     
     
     

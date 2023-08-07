@@ -44,6 +44,10 @@ typedef struct _realcoupon {
     char startday[10]; //쿠폰 발급일 년: 2 월: 2 일: 2 시간: 2 분: 2
 } Realcoupon;
 
+typedef struct _parkingplaceinfo {
+    
+} Parkingplaceinfo;
+
 //FileInOut
 //parkinginfo
 Parkinginfo* readParkinginfo(void);     //주차정보 읽기(조회화면에 사용)

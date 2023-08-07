@@ -10,7 +10,6 @@
 int main(void) {
     
     //Programstart();
-    printf("%c", 0 + 48);
     
     
     printf("%s", getnowtimeeightcharacter());
